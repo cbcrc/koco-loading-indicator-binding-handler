@@ -1,20 +1,20 @@
 {
-    "name": "koco-loading-indicator-binding-handler",
-    "version": "0.1.0",
-    "homepage": "https://github.com/cbcrc/koco-loading-indicator-binding-handler",
-    "authors": [
-        "th3answer <vincent.maliko@cbc.ca>"
-    ],
-    "description": "A koco (frameworkjs) loading indicator binding handler",
-    "main": "src/loading-indicator-binding-handler.js",
-    "scripts": {
-        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
-    },
-    "keywords": [
-        "koco",
-        "koco-loading-indicator-binding-handler",
-        "frameworkjs",
-        "knockout"
-    ],
-    "license": "MIT"
+  "name": "koco-loading-indicator-binding-handler",
+  "version": "1.0.0",
+  "homepage": "https://github.com/cbcrc/koco-loading-indicator-binding-handler",
+  "authors": [
+    "th3answer <vincent.maliko@cbc.ca>"
+  ],
+  "description": "A koco (frameworkjs) loading indicator binding handler",
+  "main": "src/loading-indicator-binding-handler.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+  },
+  "keywords": [
+    "koco",
+    "koco-loading-indicator-binding-handler",
+    "frameworkjs",
+    "knockout"
+  ],
+  "license": "MIT"
 }
