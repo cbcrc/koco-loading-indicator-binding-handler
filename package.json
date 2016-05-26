@@ -23,6 +23,7 @@
     "babel-preset-stage-0": "^6.5.0"
   },
   "dependencies": {
-    "koco": "^1.0.0"
+    "jquery": "^2.1.4",
+    "knockout": "^3.4.0"
   }
 }
